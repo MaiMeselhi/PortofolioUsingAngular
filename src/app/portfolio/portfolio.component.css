@@ -1,0 +1,23 @@
+section{
+   padding:4rem 0;
+}
+h2{
+
+   font-size: 4rem;
+   text-align:left;
+   margin-bottom: 5rem;
+   color:#1f1f1f;
+}
+
+.card{
+   padding: 6rem 2rem;
+   font-size: 2rem;
+   text-align: center;
+   margin-bottom: 2rem;
+   background-color: #959188;
+}
+
+.card-status{
+   background-color: #404040;
+   border-bottom: 3px solid gray;
+}

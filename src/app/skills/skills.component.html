@@ -1,0 +1,28 @@
+<section class="skills">
+   <div class="container">
+      <header>
+         <h2>skills</h2>
+         <p>lorem ipsum dolor sit amet,consecuter adpsicing elit,sed do elsumed tempor ut laboreet dolore magna aliquelorem ipsum dolor sit amet,consecuter adpsicing elit,sed do elsumed tempor ut laboreet dolore magna aliquelorem ipsum dolor sit amet,consecuter adpsicing elit,sed do elsumed tempor ut laboreet dolore magna aliquelorem ipsum dolor sit amet,consecuter adpsicing elit,sed do elsumed tempor ut laboreet dolore magna aliquelorem ipsum dolor sit amet,consecuter adpsicing elit.</p>
+      </header>
+      <div class="skills__items">
+         <div class="skills__item1">
+            <h4>my focus</h4>
+            <span type="line"></span>
+            <ul>
+               <li *ngFor="let skill of skillsFocus; let i = index">
+                {{skill}}
+                  </li>
+            </ul>
+
+         </div>
+         <div class="skills__item2">
+            <div class="progress" *ngFor="let skill of skillsProgress">
+              <div class="progressBar" [style.width.%]="skill.progressBar" >
+                 {{skill.skill}}
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+</section>
+

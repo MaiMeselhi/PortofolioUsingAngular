@@ -1,0 +1,40 @@
+.container{
+   width:90%;
+   margin:0 auto;
+}
+
+.hero{
+   background-color: #000;
+}
+.hero__items{
+   display:flex ;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+}
+.hero__item1{
+   width:60%;
+   padding:8rem 0;
+}
+.hero__item2{
+   width: 35%;
+   padding:3rem 0;
+}
+h1{
+   font-size: 4rem;
+   color: #fff;
+}
+.p__header{
+   font-size: 3rem;
+   text-transform: capitalize;
+   color:#fff;
+}
+button{
+   width: 12rem;
+   height: 4rem;
+   display: block;
+   font-size: 1.5rem;
+   border: 1px solid #fff;
+   color: #fff;
+   background-color: #000;
+   text-transform: capitalize;
+}

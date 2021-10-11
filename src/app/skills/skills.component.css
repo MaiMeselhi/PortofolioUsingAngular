@@ -1,0 +1,65 @@
+h2{
+      font-size: 4rem;
+      text-align: center;
+      color:#fff;
+}
+h4{
+   text-transform: capitalize;
+   padding: 2rem;
+   color: #fff;
+}
+.line{
+
+}
+p{
+   text-align: center;
+   padding:0 80px;
+   color:#fff;
+   line-height:1.6;
+}
+.container{
+   width:90%;
+   margin:0 auto;
+}
+
+.skills{
+   background-color: #3d3d3d;
+   padding:4rem 0;
+}
+
+.skills__items{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.skills__item1{
+   width:40%
+}
+.skills__item2{
+   width:50%;
+   padding-top:1rem;
+}
+.progress{
+   display: flex;
+   height: 2.5rem;
+   overflow: hidden;
+   font-size: 1rem;
+   background-color: #e9ecef;
+   border-radius: .25rem;
+   text-align: left;
+   padding: 10px 0 0 10px;
+   font-weight: bold;
+}
+.progressBar{
+background-color: lightblue;
+}
+
+ul{
+list-style: none;
+}
+ul li{
+   font-size: 1.5rem;
+   text-transform: capitalize;
+   color: #fff;
+}
